@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2#icons') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_ic-"],
+[class*=" _ic-"] {
+  &::before {
+    font-family: 'icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+._ic-statistic:before {
+  content: "\e90d";
+}
+
+._ic-favorite:before {
+  content: "\e90b";
+}
+
+._ic-eye:before {
+  content: "\e90c";
+}
+
+._ic-linkedin:before {
+  content: "\e900";
+}
+
+._ic-twitter:before {
+  content: "\e901";
+}
+
+._ic-facebook:before {
+  content: "\e902";
+}
+
+._ic-arrow-right:before {
+  content: "\e903";
+}
+
+._ic-instagram:before {
+  content: "\e904";
+}
+
+._ic-quotes:before {
+  content: "\e905";
+}
+
+._ic-refreshing:before {
+  content: "\e906";
+}
+
+._ic-Renewable:before {
+  content: "\e907";
+}
+
+._ic-cart:before {
+  content: "\e908";
+}
+
+._ic-search:before {
+  content: "\e909";
+}
+
+._ic-arrow-down:before {
+  content: "\e90a";
+}

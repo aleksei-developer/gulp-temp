@@ -1,0 +1,9 @@
+@import "mixins";
+@import "fonts";
+@import "icons";
+@import "variables";
+@import "parts/*";
+
+body {
+  font-family: $font-family;
+}
